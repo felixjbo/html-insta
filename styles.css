@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+.container {
+    width: 250px;
+    background-color: white;
+    padding: 5px 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+img {
+    width: 250px;
+    height: auto;
+}
+.header {
+    display: flex;
+}
+.header > div {
+    margin: 8px;
+}
+.avatar {
+    width: auto;
+    height: 20px;
+}
+.options {
+    margin-top: 100px;
+    margin-left: auto; 
+    margin-right: 0;
+    height: auto;
+}
+.footer > div {
+    margin: 8px;
+    font-size: xx-small;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-filler {
+    margin: auto;
+}
+.header-filler {
+    margin: auto;
+}
+.options {
+    display: flex;
+}
+.details {
+    margin: 8px;
+    font-size: xx-small;
+    font-family: 'Roboto', sans-serif;
+}
+.likedBy > h4 {
+    font-weight: bolder;
+}
